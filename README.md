@@ -1,6 +1,6 @@
 # The C Programming Language Exercises
 
-![C Programming Language](c-language.jpg)
+![C Programming Language](image/c-language.jpg)
 
 Welcome to my personal repository for solving exercises from "The C Programming Language" by Brian Kernighan and Dennis Ritchie. The main goal of this repository is to challenge myself to solve each exercise in the book on my own. By doing so, I aim to improve my understanding of C programming concepts, syntax, and problem-solving skills.
 
