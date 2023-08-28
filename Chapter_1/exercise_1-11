@@ -1,0 +1,31 @@
+Question: How would you test the word count program? What kinds of input are most likely to uncover bugs if there are any?
+
+
+To test the word count program, you can provide various types of input to ensure that the program counts lines, words, and characters correctly.
+
+Empty Input:
+Test the program with no input or just pressing Enter. The program should display 0 lines, 0 words, and 0 characters.
+
+Single Word Input:
+Input a single word followed by Enter. The program should display 1 line, 1 word, and the number of characters in the word.
+
+Multiple Words on a Single Line:
+Input several words separated by spaces on a single line. The program should count the words and characters correctly.
+
+Multiple Lines:
+Input multiple lines with various combinations of words and spaces. Make sure to include empty lines and lines with only spaces. The program should correctly count lines, words, and characters.
+
+Tab and Newline Characters:
+Include tabs and newline characters in the input. The program should correctly handle these characters and count them as characters and words.
+
+Consecutive Spaces:
+Input multiple spaces between words. The program should count these as a single word and ignore the extra spaces.
+
+Leading and Trailing Spaces:
+Input lines with leading and trailing spaces. The program should correctly count words and characters while ignoring leading and trailing spaces.
+
+Mixed Characters:
+Input a combination of letters, numbers, punctuation, and spaces. The program should correctly count words and characters while ignoring non-alphanumeric characters.
+
+Special Cases:
+Test edge cases such as very long lines, very large inputs, and input containing special characters or non-ASCII characters.
